@@ -1,12 +1,9 @@
 import { LoginOutlined } from "@ant-design/icons";
 import { Button, Carousel, Col, Row, Typography, Image } from "antd";
 import { useAuth } from "react-oidc-context";
-
-
 const { Title } = Typography;
 export const HomePage = () => {
   const auth = useAuth();
-
   return (
     <>
       <Row className="justify-center">
