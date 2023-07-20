@@ -3,7 +3,6 @@ import { useUsers } from './useUsers';
 
 export const UsersPage = () => {
   const { isLoading, error, data: users } = useUsers();
-
   if (error) {
 
     return (
@@ -31,6 +30,7 @@ export const UsersPage = () => {
             {user.firstName} {user.lastName}
           </div>
         ))}
+        
     </div>
   );
 };

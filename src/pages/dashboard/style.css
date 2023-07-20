@@ -1,0 +1,14 @@
+/* Style pour le bouton "Supprimer" */
+.delete-button {
+    background-color: #b62933;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+/* Style pour le texte dans les boutons */
+.button-text {
+    color: black;
+}
