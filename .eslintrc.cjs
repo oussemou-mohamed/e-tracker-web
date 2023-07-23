@@ -11,4 +11,10 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
+  env: {
+    node: true, // Permettre les variables globales Node.js et CommonJS
+  },
+  rules: {
+    // Ajouter des règles spécifiques si nécessaire
+  },
 }
